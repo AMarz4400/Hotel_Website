@@ -1,0 +1,155 @@
+.box {
+    height: 100vh;
+    display: flex;
+    padding: 5px;
+}
+
+.stanze {
+    width: 60%;
+    height: 90%;
+    border: solid white 5px;
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    overflow-y:auto;
+}
+
+.carrelloBox {
+    width: 30%;
+    height: 90%;
+    border: solid white 5px;
+    overflow-y: auto;
+}
+
+.card {
+    border: solid white 5px;
+    margin: 20px;
+}
+
+.title {
+    width: 100%;
+    border-bottom: solid white 5px;
+    height: 20%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+
+.img {
+    width: 100%;
+    border-bottom: solid white 5px;
+    height: 60%;
+}
+
+.footer {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.prezzo {
+    width: 50%;
+    height: 90%;
+    border-right: solid white 5px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.ordinaBtn {
+    width: 50%;
+    height: 95%;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    box-shadow: inset 0 0 0 0 white;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.nonDisp {
+    width: 50%;
+    height: 95%;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    box-shadow: inset 0 0 0 0 white;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.ordinaBtn:hover {
+    cursor: pointer;
+    box-shadow: inset 700px 0 0 0 white;
+    color: cornflowerblue;
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.elementoCarrello {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 15px;
+}
+
+.completaOrdineBox {
+    border-top: solid white 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.iconaFreccia {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    padding-left: 15px;
+    position: relative;
+    margin: auto;
+    background: cornflowerblue;
+}
+
+.iconaFreccia::before {
+    border-color: white;
+    border-style: solid;
+    border-width: 0 0 2px 2px;
+    content: "";
+    display: block;
+    height: 6px;
+    left: 0px;
+    position: absolute;
+    width: 6px;
+    margin-top: -3px;
+    top: 50%;
+    transition: left 0.1s;
+    transform: rotate( 45deg );
+    -webkit-transform: rotate( 45deg );
+}
+
+.iconaFreccia::after {
+    background: white;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0px;
+    position: absolute;
+    top: 50%;
+    width: 11px;
+    transition: left 0.1s;
+}

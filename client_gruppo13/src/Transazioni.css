@@ -1,0 +1,47 @@
+.box {
+    height: 100vh;
+}
+
+.containerPrenotazioni {
+    width: 80%;
+    height: 80%;
+    border: solid goldenrod 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.ordine {
+    margin: 20px;
+    width: 80%;
+    border: goldenrod solid 3px;
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.ordinaBtn {
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    color: goldenrod;
+    font-size: 20px;
+    box-shadow: inset 0 0 0 0 goldenrod;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.ordinaBtn:hover {
+    cursor: pointer;
+    box-shadow: inset 700px 0 0 0 goldenrod;
+    color: black;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+}

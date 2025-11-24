@@ -1,0 +1,80 @@
+.box {
+    height: 100vh;
+}
+
+.containerComandi {
+    width: 80%;
+    height: 80%;
+    border: solid white 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.aggiungiForm {
+    margin: 50px;
+    border: solid white 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.input {
+    width: 80%;
+    height: 30%;
+    margin: 10px;
+    border: white solid 5px;
+    background: transparent;
+    color: white;
+}
+
+.rimuoviForm {
+    margin: 50px;
+    border: solid white 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.aggiornaForm {
+    margin: 50px;
+    border: solid white 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.visualizzaTransazioni {
+    margin: 50px;
+    border: solid white 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn {
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    box-shadow: inset 0 0 0 0 white;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    border: white solid 3px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: inset 700px 0 0 0 whitesmoke;
+    color: black;
+}

@@ -1,0 +1,41 @@
+.box {
+    height: 100vh;
+}
+
+.containerPrenotazioni {
+    width: 80%;
+    height: 80%;
+    border: solid white 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.prenotazione {
+    margin: 20px;
+    width: 80%;
+    border: white solid 3px;
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.ordinaBtn {
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    box-shadow: inset 0 0 0 0 whitesmoke;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.ordinaBtn:hover {
+    cursor: pointer;
+    box-shadow: inset 700px 0 0 0 white;
+    color: black;
+}

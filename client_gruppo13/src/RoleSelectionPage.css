@@ -1,0 +1,45 @@
+.box {
+    background: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+}
+
+.btnContainer {
+    background: cornflowerblue;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 5%;
+    border: solid white 2px;
+}
+
+.roleSelector {
+    background: transparent;
+    border: solid white 4px;
+    color: white;
+    width: 30%;
+    height: 30%;
+    font-size: 50px;
+    box-shadow: inset 0 0 0 0 white;
+    transition:  1s ease-in-out;
+}
+
+.roleSelector:hover {
+    cursor: pointer;
+    box-shadow: inset 700px 0 0 0 whitesmoke;
+    color: black;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+}
