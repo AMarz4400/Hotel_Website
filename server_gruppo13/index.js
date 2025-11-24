@@ -1,7 +1,6 @@
 const
     port = 8080,
-    mongodbUrl = "mongodb+srv://MVangi:progettoWeb89@cluster0.rydvjn8.mongodb.net/Database_Progetto_Web?retryWrites=true&w=majority",
-    express = require('express'),
+    mongodbUrl = process.env.MONGO_URI,
     mongoose = require('mongoose'),
     roomController = require('./controllers/stanzaCtrl'),
     reservationController = require('./controllers/prenotazioneCtrl.js'),
